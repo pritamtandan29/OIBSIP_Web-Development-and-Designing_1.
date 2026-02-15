@@ -1,83 +1,77 @@
-# OIBSIP_Web-Development-and-Designing_1.
+# 🏟️ Turf Booking Landing Page
 
-🏟️ Sports Booking Landing Page
+A modern and visually engaging Turf Booking Landing Page built using HTML and CSS.
 
-A modern and responsive landing page built as part of my internship task.
-This project represents a sports court booking platform where users can explore facilities and book courts instantly.
+This project represents a sports turf booking platform where users can explore available sports, check facilities, and book courts instantly.
 
-🚀 Project Overview
+---
 
-This landing page is designed for a sports booking platform that allows users to:
+## 🚀 Project Overview
 
-Book Football, Badminton, and Cricket courts
+The Turf Booking Landing Page is designed to:
 
-Explore premium facilities
+• Showcase different sports categories (Football, Badminton, Cricket)  
+• Highlight premium facilities  
+• Display platform statistics  
+• Encourage users to book courts instantly  
 
-View key platform highlights
+The design focuses on bold typography, dark theme aesthetics, strong visual hierarchy, and clean layout structure.
 
-Take quick action with clear Call-To-Action buttons
+---
 
-The design focuses on bold typography, strong visual hierarchy, and a modern dark theme UI.
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
+• HTML5  
+• CSS3  
+• Google Fonts (Oswald, Roboto Condensed)  
+• Unsplash Images (for background visuals)
 
-HTML5
+---
 
-CSS3
+## 📂 Project Structure
 
-Google Fonts (Oswald & Roboto Condensed)
-
-Unsplash Images (for background visuals)
-
-📂 Project Structure
-📁 Sports-Booking-Landing
+Turf-Booking-Landing/
 │── index.html
 │── style.css
 
-✨ Features
+---
 
-Full-screen Hero Section with blurred background
+## ✨ Features
 
-Interactive Sports Cards with hover effects
+• Full-screen hero section with blurred background overlay  
+• Interactive sports cards with hover effects  
+• Strong Call-To-Action button  
+• Facilities section with grid layout  
+• Platform stats display (Courts, Booking, Rating)  
+• Modern footer with final CTA  
+• Clean and structured responsive layout  
 
-Call-To-Action Buttons with hover animations
+---
 
-Facilities Section with stats and highlights
+## 🎯 Objective
 
-Modern Footer Section
+The objective of this project was to build a visually appealing and conversion-focused landing page using only HTML and CSS without using any frontend frameworks.
 
-Responsive layout structure
+---
 
-📸 Sections Included
+## 🔗 How to Run
 
-Hero Section – “Book Your Game”
+1. Clone the repository  
+   git clone https://github.com/your-username/your-repo-name.git
 
-Sports Category Cards
+2. Open the project folder  
 
-Facilities & Stats Section
+3. Open index.html in your browser  
 
-Call-To-Action Footer
+---
 
-🎯 Objective
+## 👨‍💻 Author
 
-The goal of this project was to create a visually appealing and conversion-focused landing page using only HTML and CSS without any frameworks.
+Pritam Tandan  
+IT Engineering Student | Frontend Developer  
 
-🔗 How to Run
+---
 
-Clone the repository
+## 📄 License
 
-git clone https://github.com/your-username/your-repo-name.git
-
-
-Open the folder
-
-Open index.html in your browser
-
-📌 Author
-
-Pritam Tandan
-Information Technology Student | Frontend Developer
-
-📄 License
-
-This project was created for internship learning purposes.
+This project is created for internship and learning purposes.
