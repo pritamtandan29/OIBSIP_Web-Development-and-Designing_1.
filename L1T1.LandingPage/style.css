@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.hero-container{
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;    
+}
+.hero-container::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://images.unsplash.com/photo-1582765974199-34f88f3c8bb4?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+    z-index: 1;
+    transform: scale(1);
+}
+.hero-container::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+.hero-section{
+    margin: 0;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+#book-yourID{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    line-height: 0.9;
+    color: white;
+    font-size: 142px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+#gameID{
+    margin: 0;
+    color:#c4ff00;
+    font-size: 139px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    text-align: center; 
+}
+#own-thehourID{
+    margin-top:0;
+    color:white;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+.sports-cards{
+    display: flex;
+    gap: 40px;
+}
+.sport-card1{
+    width: 220px;
+    height: 180px;
+    background-image: url(https://images.unsplash.com/photo-1582765974199-34f88f3c8bb4?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.sport-card2{
+    width: 220px;
+    height: 180px;
+    background-image: url(https://images.unsplash.com/photo-1761286753703-570ed91dd90e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.sport-card3{
+    width: 220px;
+    height: 180px;
+    background-image: url(https://images.unsplash.com/photo-1582617578126-4bdcead11e80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080);
+    background-size: cover;
+    background-position: left-center;
+    background-size: 200%;
+    
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.sport-card1:hover,
+.sport-card2:hover,
+.sport-card3:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 0 25px rgba(203, 254, 34, 0.25);
+}
+.sport-card1 h3,
+.sport-card2 h3,
+.sport-card3 h3{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+
+}
+.sport-card1 p,
+.sport-card2 p,
+.sport-card3 p{
+    margin-top: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #aaa;
+}
+
+.find-btn{
+    background-color: #c4ff00;
+    width: 265px;
+    height: 85px;
+    border: 2px solid #c4ff00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+.btn-wrap{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.find-btn .main-text{
+    font-family: "Oswald", sans-serif;
+    font-size: 23px;
+    color: #000;
+    /*transition: color 0.3s ease;*/
+}
+.find-btn:hover{
+    background: transparent;
+    /*box-shadow: 0 0 25px rgba(196, 255, 0, 0.6);*/
+}
+.find-btn:hover .main-text{
+    color: #c4ff00;
+}
+
+.facilities-section{
+    width: 100%;
+    background: #0b0f14;
+    padding: 6rem 8rem;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.facilities-wrap{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 4rem;
+}
+.left-title{
+    color: #c4ff00;
+    font-family: "Oswald", sans-serif;
+}
+.left-mid {
+    margin: 0;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 70px;
+}
+.left-mid span{
+    margin: 0;
+    color: #00ff15;
+    font-family: "Oswald", sans-serif;
+    font-size: 70px
+}
+.left-description{
+    max-width: 540px;
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+}
+.stats{
+    display: flex;
+    gap: 3rem;
+}
+.stats h3{
+    color: #c4ff00;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32px;
+}
+.stats p{
+    color:#777;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.facilities-right{
+    display: flex;
+    flex-direction: column;  
+    gap: 40px;
+}
+.facilities-right h4{
+    margin-top:0;
+    margin-bottom:0;
+    padding: 1.2rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+}
+.facilities-right p{
+    color:#aaa;
+    margin:0;
+    padding-left: 1.2rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.part1{
+    color:#c4ff00;
+    border-left: 2px solid #c4ff00;
+}
+.part2{
+    color:#00ff9c;
+    border-left: 2px solid #00ff9c;
+}
+.part3{
+    color:#ff9f43;
+    border-left: 2px solid #ff9f43;
+}
+.part4{
+    color:#ff4d6d;
+    border-left: 2px solid #ff4d6d;
+}
+
+
+.footer-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0b0f14;
+    padding: 100px 20px; /* spacing instead of 100vh */
+}
+
+.footer-section {
+    text-align: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    font-size: 80px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+}
+.footer-section span {
+    color: #c4ff00;
+}
+.footer-section p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 22px;
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+.footer-btn {
+    margin-top: 70px;
+    background-color: #c4ff00;
+    border: 2px solid #c4ff00;
+    padding: 11px 80px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer-btn:hover {
+    background: transparent;
+    color: #c4ff00;
+}
+
+.footer-btn h3{
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    font-size: 23px;
+}
+.footer-btn:hover .footer-main-text{
+    color: #c4ff00;
+    font-family: "Oswald", sans-serif;
+    font-size: 23px;
+}
+.footer-section small{
+    margin:0;
+    font-size: 14px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #555;
+}
+.divider-line {
+    margin-top: 130px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 900px;
+    height: 0.3px;
+    background-color: #aaa;
+}
